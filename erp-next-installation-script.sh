@@ -153,6 +153,7 @@ if [ $ans = "y" ]; then
   bench get-app hrms
   bench install-app erpnext
   bench install-app hrms
+  bench install-app lms
 fi
 read -p "Good! Now, is your server ment for production? (Y/n) " ans
 if [ $ans = "n" ]; then exit 0; fi 
